@@ -1,0 +1,19 @@
+{
+  "name": "GitHub Expand",
+  "description": "Expand comments in GitHub PRs",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "32": "icon.png"
+    },
+    "default_title": "Open comments"
+  }
+}
